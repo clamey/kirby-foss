@@ -7,7 +7,7 @@
       <?php echo $page->byline()->kirbytext() ?>
 
       <div class="donateForm">
-        <form action="http://friendsofslavens.org/handler.php" method="POST" name="donateForm">
+        <form action="/handler.php" method="POST" name="donateForm">
           <div class="donateType cf">
             <div><label><input type="radio" name="ssl_recurring" value="one_time" checked>One Time</label></div>
             <div><label><input type="radio" name="ssl_recurring" value="recurring">Recur Monthy</label></div>

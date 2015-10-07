@@ -16,4 +16,8 @@ When the Slavens STEM Lab was built, FOSS stepped up to pay the salary of a full
 
 ## STEM Lab 3D Printer
 
+3D Printing is becoming commonplace, allowing people to create parts, toys, ideas quickly and cheaply.  In order to help Slaven's students learn and understand this technology, FOSS recently bought a 3D printer and supplies for the STEM lab.
+
 ## Hour of Code
+
+The (link: https://hourofcode.com/us text:Hour of Code) is a national wide effort to get kids into writing software.  Slavens participates and FOSS helps out with the materials.
