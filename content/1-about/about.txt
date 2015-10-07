@@ -2,15 +2,28 @@ Title: About
 
 ----
 
-Text: Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.
+Text: 
 
-## Lorem Ipsum
-In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a.
+## Our Mission
+Formed in 1996, FOSS is a 501(c)3 charity charged with the goal of raising money to ensure Slavens students don’t lose out on a well-rounded education featuring key courses including art, music, foreign language and STEM.
 
-(image: about.jpg)
+## What We Do
+Giving our kids access to these extras not only makes for a better school experience, but helps cdfeate future leaders and great thinkers. Recent FOSS funding includes paying the salary of our STEM facilitator, as well as providing a new sound system for the gym/auditorium, band scholarships, Spanish books and art festival support, amoung other gifts.
 
-### Lorem Ipsum
-In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus.
+## What We Need
+FOSS is dedicated to giving the extras to every child, every day but we can’t do it without every family participating. We recommend $150 per student (that’s less than $1 per day), but no donation is too small. If we all give what we can, we will reach our annual goal!
 
-#### Lorem Ipsum
-In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus.
+## 2015-2016 FOSS Board
+Amy Long, **Chair**
+Annie Schildwachter, **Co-Chair**
+David May, **Treasurer**
+Beth Sundberg and Sara Reed, **Co-Secretaries**
+Sheila Gannon, **Database**
+Chris Lamey, **Website**
+Tara Cavanaugh and Tina Cushman, **Acknowledgments**
+Susie Brennan, Lesley Kennedy, Mike Leuteneker, **Marketing**
+Zuben Bastani, **Slavens App**
+Oz Spies, **STEM Liaison**
+Heather Platt, **PTA Liaison**
+Bob Graham, Erin Martin, Tim McWhite, Emily Pruisner, **At Large**
+Kurt Siebold, **Principal**

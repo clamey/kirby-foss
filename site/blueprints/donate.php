@@ -1,16 +1,15 @@
 <?php if(!defined('KIRBY')) exit ?>
 
-title: Project
-pages: false
-files:
-  sortable: true
+title: Donate
+pages: true
+files: true
 fields:
   title:
     label: Title
     type:  text
+  byline:
+    label: Byline
+    type:  textarea
   text:
     label: Text
     type:  textarea
-  tags:
-    label: Tags
-    type:  tags

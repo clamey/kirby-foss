@@ -1,17 +1,17 @@
-Title: Kirby Starterkit
+Title: Friends of Slavens School
 
 ----
 
-Author: Bastian Allgeier GmbH
+Author: Friends of Slavens School
 
 ----
 
-Description: This is Kirby's Starterkit.
+Description: Friends of Slavens School (FOSS) is a 501(c)(3) non-profit organization whose funds pay for the things at Slavens School that are not covered by Denver Public Schools.
 
 ----
 
-Keywords: Kirby, CMS, file-based
+Keywords: Kirby,CMS,file-based
 
 ----
 
-Copyright: © 2009-(date: Year) (link: http://getkirby.com text: Kirby)
+Copyright: © 2009-(date: Year) (link: http://getkirby.com text: Friends of Slavens Schools)

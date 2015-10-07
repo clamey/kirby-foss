@@ -2,18 +2,14 @@ Title: Contact
 
 ----
 
-Text:
+Text: 
 
 ## Get in touch
 
-- (link: http://getkirby.com/support text: Kirby's support page)
-- (link: http://forum.getkirby.com text: Kirby's forum)
-- (link: http://github.com/getkirby text: Kirby on Github)
-- <support@getkirby.com>
+You can reach FOSS through the main office at Slavens School:
 
-## Follow us on Twitter
+Friends of Slavens School
+3000 South Clayton St
+Denver, CO 80210
 
-- Follow Kirby on Twitter (twitter: @getkirby)
-- Follow Bastian on Twitter (twitter: @bastianallgeier)
-- Follow Nico on Twitter (twitter: @distantnative)
-- Follow Sascha on Twitter (twitter: @sashtown)
+Or through e-mail at <info@friendsofslavens.org>

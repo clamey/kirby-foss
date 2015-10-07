@@ -1,15 +1,25 @@
-Title: Home
+Title: Put FOSS In The Fast Lane!
 
 ----
 
-Text: Yay! If you are seeing this, the installation of Kirby worked. :)
+Top-text: 
 
-## Get started
+## Put FOSS In The Fast Lane!
 
-- Go to the (link: panel text: panel) to give Kirby's admin interface a try
-- Check out the (link: http://getkirby.com/docs text: docs) and start building your own site
-- Follow (twitter: @getkirby) on Twitter for updates
-- Visit the (link: http://forum.getkirby.com text: forum) to connect with other Kirby users
-- (link: http://getkirby.com/support text: Get in contact) if you need support.
+Ladies and gentlemen, start your engines! A new school year means a new season for giving, and donations to FOSS ensure that our kids keep receiving all the extra opportunities that help make Slavens so great. And thanks to one community member’s generous donation of the proceeds from the sale of a 1982 convertible Mercedes, we are ready to shift our fundraising—uh—drive into high gear!
 
-**Have fun with Kirby!**
+----
+
+Left-text: 
+
+## Get Behind The Wheel
+
+Follow the race. FOSS will place a car-shaped symbol along the south fence on Dartmouth Avenue, for every $5000 donated. Once those cars cross the finish line, FOSS will have reached its goal and you’ll know Slavens students will continue to receive a turbo- charged education that includes STEM, music and art. Victory lap optional.
+
+----
+
+Right-text: 
+
+## Fueling The Fire
+
+The grade with the highest percentage of family participation between October 12 and November 20 will receive an ice cream party during school after Thanksgiving break. Oh, and really get your motor running? Each donating family will receive a coupon for one FREE small cone from Glacier Ice Cream & Gelato. Cue the checked flag.

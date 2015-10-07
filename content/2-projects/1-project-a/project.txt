@@ -1,13 +1,19 @@
-Title: Project A
+Title: STEM
 
 ----
 
-Year: 2014
+Tags: 
 
 ----
 
-Tags: outdoor
+Text: 
 
-----
+FOSS targets STEM (Science, Technology, Engineering and Math) to make sure our students help shape the future.
 
-Text: Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.
+## STEM Lab Facilitator
+
+When the Slavens STEM Lab was built, FOSS stepped up to pay the salary of a full-time Lab Facilitator.
+
+## STEM Lab 3D Printer
+
+## Hour of Code
