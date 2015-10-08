@@ -388,7 +388,6 @@ h1 a, h2 a, h3 a, h4 a {
   font-size: 18px;
 }
 
-
 .donateForm input[type=submit] {
   font-size: 18px;
   margin-top: 20px;
@@ -428,6 +427,13 @@ h1 a, h2 a, h3 a, h4 a {
   
   .donateForm input[type=submit] {
     width: 300px;
+  }
+
+  /* disable number spinners */
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
   }
 }
 
@@ -476,3 +482,19 @@ h1 a, h2 a, h3 a, h4 a {
   display: block;
   margin: 50px auto;
 }
+
+input.formInvalid::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    red;
+}
+input.formInvalid:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    red;
+   opacity:  1;
+}
+input.formInvalid::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    red;
+   opacity:  1;
+}
+input.formInvalid:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    red;
+}
+
