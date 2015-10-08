@@ -343,6 +343,7 @@ h1 a, h2 a, h3 a, h4 a {
   background-color: #80b7ce;
   padding: 7px;
   margin-bottom: 50px;
+  border: solid thin;
 }
 
 .donateForm select {
