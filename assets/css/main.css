@@ -391,6 +391,7 @@ h1 a, h2 a, h3 a, h4 a {
 .donateForm input[type=submit] {
   font-size: 18px;
   margin-top: 20px;
+  margin-bottom: 20px;
   padding-top: 14px;
   padding-bottom: 14px;
   padding-left: 11px;

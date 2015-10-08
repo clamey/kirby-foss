@@ -7,6 +7,7 @@
       <?php echo $page->byline()->kirbytext() ?>
 
       <div class="donateForm">
+        <h3>Step one of two</h3>
         <form action="/handler.php" method="POST" name="donateForm" onsubmit="return validateDonateForm()">
           <div class="donateType cf">
             <div><label><input type="radio" name="ssl_transaction_type" value="ccsale" checked>One Time</label></div>
@@ -78,6 +79,7 @@
           <input required type="email" name="ssl_email" value="" placeholder="Email"/>
           <input type="submit" value="Next"/>
         </form>
+	      <script type="text/javascript" src="https://sealserver.trustwave.com/seal.js?code=843a38700ca511e0b34b005056b201e5"></script>
       </div>
 
       <?php echo $page->text()->kirbytext() ?>
