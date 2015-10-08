@@ -26,7 +26,7 @@
 	<option value="AZ">AZ</option>
 	<option value="AR">AR</option>
 	<option value="CA">CA</option>
-	<option value="CO">CO</option>
+	<option value="CO" selected>CO</option>
 	<option value="CT">CT</option>
 	<option value="DE">DE</option>
 	<option value="DC">DC</option>
