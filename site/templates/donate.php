@@ -12,7 +12,7 @@
             <div><label><input type="radio" name="ssl_recurring" value="one_time" checked>One Time</label></div>
             <div><label><input type="radio" name="ssl_recurring" value="recurring">Recur Monthy</label></div>
           </div>
-          <input type="text" name="ssl_amount" value="" placeholder="Donation Amount"/>
+          <input type="number" name="ssl_amount" value="" placeholder="Donation Amount"/>
           <div>
             <input type="text" name="ssl_first_name" value="" placeholder="First Name"/>
             <input type="text" name="ssl_last_name" value="" placeholder="Last Name"/>
@@ -73,8 +73,8 @@
 	<option value="WI">WI</option>
 	<option value="WY">WY</option>
 </select>	
-          <input id="donateZip" type="text" name="ssl_avs_zip" value="" placeholder="Zipcode"/>
-          <input type="text" name="ssl_email" value="" placeholder="Email"/>
+          <input id="donateZip" type="number" name="ssl_avs_zip" value="" placeholder="Zipcode"/>
+          <input type="email" name="ssl_email" value="" placeholder="Email"/>
           <input type="submit" value="Next"/>
         </form>
       </div>
