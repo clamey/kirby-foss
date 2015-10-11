@@ -387,12 +387,13 @@ h1 a, h2 a, h3 a, h4 a {
 
 .donateForm select {
   font-size: 18px;
+  padding: 10px;
 }
 
 .donateForm input[type=submit] {
   font-size: 18px;
-  margin-top: 20px;
   margin-bottom: 20px;
+  margin-top: 20px;
   padding-top: 14px;
   padding-bottom: 14px;
   padding-left: 11px;
@@ -403,14 +404,17 @@ h1 a, h2 a, h3 a, h4 a {
 @media screen and (min-width: 40em) {
   
   .donateForm {
-    width: 665px;
+    width: 667px;
     padding: 20px;
   }
+
   .donateType div {
     margin-right: 50px;
     float: left;
   }
 
+  .donateForm input[type=email],
+  .donateForm input[type=number],
   .donateForm input[type=text] {
     width: 300px;
   }

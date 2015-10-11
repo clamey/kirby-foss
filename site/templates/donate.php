@@ -77,7 +77,9 @@
 
           <input required id="donateZip" type="number" name="ssl_avs_zip" value="" placeholder="Zipcode" pattern="[0-9]*"/>
           <input required type="email" name="ssl_email" value="" placeholder="Email"/>
-          <input type="submit" value="Next"/>
+          <div>
+            <input type="submit" value="Next"/>
+          </div>
         </form>
 	      <script type="text/javascript" src="https://sealserver.trustwave.com/seal.js?code=843a38700ca511e0b34b005056b201e5"></script>
       </div>
