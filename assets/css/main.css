@@ -399,6 +399,8 @@ h1 a, h2 a, h3 a, h4 a {
   padding-left: 11px;
   height: 50px;
   width: 100%;
+  color: white;
+  background-color: purple;
 }
 
 @media screen and (min-width: 40em) {
