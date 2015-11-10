@@ -14,7 +14,15 @@ RewriteEngine on
 # If your homepage is http://yourdomain.com/mysite
 # Set the RewriteBase to:
 #
-RewriteBase /~clamey/foss
+# RewriteBase /~clamey/foss
+
+#First rewrite any request to the wrong domain to use the correct one (here www.)
+RewriteCond %{HTTP_HOST} !^www\.
+RewriteRule ^(.*)$ https://www.%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+#Now, rewrite to HTTPS:
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
 # block text files in the content folder from being accessed directly
 RewriteRule ^content/(.*)\.(txt|md|mdown)$ error [R=301,L]
