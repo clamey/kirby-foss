@@ -12,6 +12,7 @@
           <div class="donateType cf">
             <div><label><input type="radio" name="ssl_transaction_type" value="ccsale" checked>One Time</label></div>
             <div><label><input type="radio" name="ssl_transaction_type" value="ccaddrecurring">Recur Monthy</label></div>
+            <input type="hidden" name="ssl_billing_cycle" value="MONTHLY"/>
           </div>
           <input required type="number" name="ssl_amount" value="" placeholder="Donation Amount" pattern="[0-9]*"/>
           <div>
