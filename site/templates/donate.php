@@ -9,11 +9,7 @@
       <div class="donateForm">
         <h3>Step one of two</h3>
         <form action="/handler.php" method="POST" name="donateForm" onsubmit="return validateDonateForm()">
-          <div class="donateType cf">
-            <div><label><input type="radio" name="ssl_transaction_type" value="ccsale" checked>One Time</label></div>
-            <div><label><input type="radio" name="ssl_transaction_type" value="ccaddrecurring">Recur Monthy</label></div>
-            <input type="hidden" name="ssl_billing_cycle" value="MONTHLY"/>
-          </div>
+          <input type="hidden" name="ssl_transaction_type" value="ccsale"/>
           <input required type="number" name="ssl_amount" value="" placeholder="Donation Amount" pattern="[0-9]*"/>
           <div>
             <input required type="text" name="ssl_first_name" value="" placeholder="First Name"/>
