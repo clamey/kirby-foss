@@ -1,3 +1,8 @@
+# FOSS NOTES
+
+* .htaccess sets bas url + forces ssl
+* FTP stuff between ftp.friendsofslavens.org
+
 # Kirby
 
 Kirby is a file-based CMS.
