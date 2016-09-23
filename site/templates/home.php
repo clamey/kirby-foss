@@ -22,7 +22,7 @@
       </div>
     </div>
 
-    <img class="center" src="<?php echo url('assets/images/foss_body.png') ?>" alt="<?php echo $site->title()->html() ?>" />
+    <!-- img class="center" src="<?php echo url('assets/images/foss_body.png') ?>" alt="<?php echo $site->title()->html() ?>" / -->
 
     <hr>
 
