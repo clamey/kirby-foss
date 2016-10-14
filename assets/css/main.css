@@ -340,108 +340,16 @@ h1 a, h2 a, h3 a, h4 a {
 /* FOSS
 -------------------------------------------------- */
 .donateForm {
-  background-color: #80b7ce;
-  padding: 7px;
+  padding: 7px 0;
   margin-bottom: 50px;
-  border: solid thin;
 }
 
-.donateForm select {
-  margin-top: 14px;
-  padding-bottom: 14px;
-  padding-left: 5px;
-  margin-right: 11px;
-}
-
-.donateForm input[type=radio] {
-  padding-top: 14px;
-  padding-bottom: 14px;
-  padding-left: 5px;
-  margin-right: 11px;
-}
-
-.donateForm input[type=email],
-.donateForm input[type=number],
-.donateForm input[type=text] {
-  font-size: 18px;
-  margin-top: 10px;
-  margin-right: 10px;
-  padding-top: 14px;
-  padding-bottom: 14px;
-  padding-left: 11px;
-  width: 100%;
-  height: 50px;
-}
-
-#donateAddress {
-  width: 100%;
-}
-
-#donateState {
-  width: 100%;
-}
-
-#donateZip {
-  width: 100%;
-}
-
-.donateForm select {
-  font-size: 18px;
-  padding: 10px;
-}
-
-.donateForm input[type=submit] {
-  font-size: 18px;
-  margin-bottom: 20px;
-  margin-top: 20px;
-  padding-top: 14px;
-  padding-bottom: 14px;
-  padding-left: 11px;
-  height: 50px;
-  width: 100%;
-  color: white;
-  background-color: purple;
-}
 
 @media screen and (min-width: 40em) {
   
   .donateForm {
     width: 667px;
-    padding: 20px;
-  }
-
-  .donateType div {
-    margin-right: 50px;
-    float: left;
-  }
-
-  .donateForm input[type=email],
-  .donateForm input[type=number],
-  .donateForm input[type=text] {
-    width: 300px;
-  }
-
-  #donateAddress {
-    width: 616px;
-  }
-
-  #donateState {
-    width: 100px;
-  }
-
-  #donateZip {
-    width: 100px;
-  }
-  
-  .donateForm input[type=submit] {
-    width: 300px;
-  }
-
-  /* disable number spinners */
-  input::-webkit-outer-spin-button,
-  input::-webkit-inner-spin-button {
-    -webkit-appearance: none;
-    margin: 0;
+    padding: 20px 0;
   }
 }
 
