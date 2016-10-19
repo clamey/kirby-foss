@@ -9,8 +9,8 @@
 
     <hr>
 
-    <?php snippet('projects') ?>
 
   </main>
+<?php snippet('projects') ?>
 
 <?php snippet('footer') ?>

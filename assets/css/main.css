@@ -9,34 +9,6 @@ Email:  support@getkirby.com
 */
 
 
-/* Source Sans Pro
--------------------------------------------------- */
-@font-face {
-  font-family: 'Source Sans Pro';
-  font-style: normal;
-  font-weight: 300;
-  src: url(../fonts/sourcesanspro-300.woff) format('woff');
-}
-@font-face {
-  font-family: 'Source Sans Pro';
-  font-style: normal;
-  font-weight: 400;
-  src: url(../fonts/sourcesanspro-400.woff) format('woff');
-}
-@font-face {
-  font-family: 'Source Sans Pro';
-  font-style: normal;
-  font-weight: 600;
-  src: url(../fonts/sourcesanspro-600.woff) format('woff');
-}
-@font-face {
-  font-family: 'Source Sans Pro';
-  font-style: italic;
-  font-weight: 400;
-  src: url(../fonts/sourcesanspro-400-italic.woff) format('woff');
-}
-
-
 /* Reset
 -------------------------------------------------- */
 *, *:before, *:after {
@@ -64,12 +36,12 @@ img {
 /* Links
 -------------------------------------------------- */
 a {
-  color: #000;
+  color: inherit;
   text-decoration: none;
   transition: color .3s, background .3s, border .3s;
 }
 a:hover {
-  color: purple;
+  color: #5e1c68;
 }
 
 
@@ -85,33 +57,29 @@ a:hover {
 /* Site
 -------------------------------------------------- */
 html {
-  height: 101%;
-  font-family: "Source Sans Pro", sans-serif;
-  -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
+  font-family: 'Fjalla One', sans-serif;
 }
+
 body {
   margin: 0 auto;
   font-size: 1.25em;
   line-height: 1.5em;
-  padding: 1.5em;
+  padding: 0 1.5em;
   max-width: 50em;
-  /* background: #80b7ce; */
-  background: linear-gradient(0deg, white, #80b7ce 80%) fixed no-repeat;
-  color: #222;
-  height: 100%;
+  background: #8a5a96;
+  color: white;
+  letter-spacing: 1.2px;
 }
 
 
 /* Header
 -------------------------------------------------- */
 .header {
-  border-bottom: 2px solid purple;
-  margin-bottom: 1.5em;
+  margin-bottom: .5em;
 }
 .logo {
   display: block;
-  margin-bottom: 1em;
+  margin-bottom: .5em;
 }
 .logo img {
   width: 60px;
@@ -125,11 +93,11 @@ body {
   color: #222;
 }
 .menu a:hover {
-  color: purple;
+  color: #5e1c68;
   text-decoration: none;
 }
 .menu .active {
-  color: purple;
+  color: #5e1c68;
 }
 .menu li {
   list-style: none;
@@ -140,7 +108,7 @@ body {
 .menu > li > a {
   padding: .35em 0;
   border-top: 1px solid #ddd;
-  font-weight: 600;
+  color: inherit;
 }
 
 .submenu {
@@ -177,7 +145,7 @@ body {
 
 @media screen and (min-width: 40em) {
   body {
-    padding: 3em;
+    padding: 0 3em;
   }
   .logo {
     float: left;
@@ -212,7 +180,7 @@ h2 {
   line-height: 1.25em;
   font-weight: 300;
   margin-bottom: .5em;
-  color: purple;
+  color: #5e1c68;
 }
 h3 {
   font-size: 1.4em;
@@ -225,10 +193,10 @@ h4 {
   font-weight: 600;
   line-height: 1.5em;
   margin-bottom: .5em;
-  color: purple;
+  color: #5e1c68;
 }
 h1 a, h2 a, h3 a, h4 a {
-  color: inherit;
+  color: white;
   border: 0 !important;
 }
 
@@ -236,14 +204,18 @@ h1 a, h2 a, h3 a, h4 a {
 
 /* Main
 -------------------------------------------------- */
-.main {
-  padding-bottom: 1.5em;
-  border-bottom: 2px solid purple;
+.narrow {
+  padding: 0 100px 1.5em 100px;
 }
+
+.main .title h1 {
+  font-size: 70px;
+}
+
 .main hr {
-  margin: 3em 0;
+  margin: 0 0 2em 0;
   height: 2px;
-  background: purple;
+  background: #5e1c68;
 }
 .main p,
 .main figure,
@@ -251,17 +223,49 @@ h1 a, h2 a, h3 a, h4 a {
 .main ol {
   margin-bottom: 1.5em;
 }
+
 .main a {
-  border-bottom: 2px solid purple;
+  border-bottom: 2px solid #5e1c68;
 }
 .main a:hover {
   border-color: #222;
+}
+
+.main .title {
+  float: left;
+}
+
+.puzzle {
+  float: right;
+  height: 200px;
+}
+
+strong {
+  color: #c3c300;
+}
+
+.news {
+  text-align: center;
 }
 
 /* Text blocks */
 .text ul,
 .text ol {
   margin-left: 1em;
+}
+
+@media screen and (max-width: 50em) {
+  .main {
+    padding: 0;
+  }
+
+  .main .title {
+    float: none;
+  }
+
+  .main img {
+    display: none;
+  }
 }
 
 /* Project meta
@@ -273,7 +277,7 @@ h1 a, h2 a, h3 a, h4 a {
   float: left;
   list-style: none;
   margin-right: 2em;
-  color: purple;
+  color: #5e1c68;
 }
 .meta li b {
   font-weight: 400;
@@ -290,7 +294,6 @@ h1 a, h2 a, h3 a, h4 a {
 .teaser li {
   margin-bottom: 1.5em;
   list-style: none;
-  color: #000;
 }
 @media screen and (min-width: 50em) {
   .teaser li {
@@ -325,16 +328,7 @@ h1 a, h2 a, h3 a, h4 a {
 .footer {
   padding: 1em 0 6em;
   font-size: .8em;
-}
-.copyright {
-  float: left;
-}
-.colophon {
-  float: right;
-}
-.colophon a b {
-  color: purple;
-  padding-left: .25em;
+  text-align: center;
 }
 
 /* FOSS
@@ -342,61 +336,6 @@ h1 a, h2 a, h3 a, h4 a {
 .donateForm {
   padding: 7px 0;
   margin-bottom: 50px;
-}
-
-
-@media screen and (min-width: 40em) {
-  
-  .donateForm {
-    width: 667px;
-    padding: 20px 0;
-  }
-}
-
-@media screen and (min-width: 40em) {
-
-  .leftCol {
-    float: right;
-    width: 50%;
-    padding: 10px;
-  }
-
-  .rightCol {
-    float: left;
-    width: 50%;
-    padding: 10px;
-  }
-
-  .twoColContainer {
-    float:left;
-    width:100%;
-  }
-}
-
-.doubleBorder {
-    -webkit-box-shadow:
-            0px 0px 0px 2px rgba(0,0,0,0.6),
-                0px 0px 0px 14px #fff,
-                0px 0px 0px 18px rgba(0,0,0,0.2),
-                6px 6px 8px 17px #555;
-   
-     -moz-box-shadow:
-            0px 0px 0px 2px rgba(0,0,0,0.6),
-                0px 0px 0px 14px #fff,
-                0px 0px 0px 18px rgba(0,0,0,0.2),
-                6px 6px 8px 17px #555;
-   
-          box-shadow:
-            0px 0px 0px 2px rgba(0,0,0,0.6),
-                0px 0px 0px 14px #fff,
-                0px 0px 0px 18px rgba(0,0,0,0.2),
-                6px 6px 8px 17px #555;
-
-}
-
-.center {
-  display: block;
-  margin: 50px auto;
 }
 
 input.formInvalid::-webkit-input-placeholder { /* WebKit, Blink, Edge */

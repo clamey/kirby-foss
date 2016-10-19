@@ -16,6 +16,6 @@ Keywords: Kirby,CMS,file-based
 
 Copyright: 
 
-© 2009-(date: Year) (link: http://getkirby.com text: Friends of Slavens Schools)
-
+© 2009-(date: Year)
+Friends of Slavens School
 (link: privacy text: Privacy Policy)

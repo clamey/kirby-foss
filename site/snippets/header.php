@@ -9,6 +9,8 @@
   <meta name="description" content="<?php echo $site->description()->html() ?>">
   <meta name="keywords" content="<?php echo $site->keywords()->html() ?>">
 
+  <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
+
   <?php echo css('assets/css/main.css') ?>
 
 </head>
@@ -16,7 +18,7 @@
 
   <header class="header cf" role="banner">
     <a class="logo" href="<?php echo url() ?>">
-      <img src="<?php echo url('assets/images/logo.png') ?>" alt="<?php echo $site->title()->html() ?>" />
+      <img src="<?php echo url('assets/images/logo-purple.png') ?>" alt="<?php echo $site->title()->html() ?>" />
     </a>
     <?php snippet('menu') ?>
   </header>

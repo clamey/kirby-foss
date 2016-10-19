@@ -1,33 +1,28 @@
 <?php snippet('header') ?>
 
-  <main class="main" role="main">
-
-    <img class="center doubleBorder" src="<?php echo url('assets/images/foss_header.png') ?>" alt="<?php echo $site->title()->html() ?>" />
-
-    <div class="text">
-      <?php echo $page->byline()->kirbytext() ?>
-    </div>
-
-    <div class="text">
-      <?php echo $page->top_text()->kirbytext() ?>
-    </div>
-
-    <div class="twoColContainer">
-      <div class="text leftCol">
-        <?php echo $page->left_text()->kirbytext() ?>
-      </div>
-
-      <div class="text rightCol">
-        <?php echo $page->right_text()->kirbytext() ?>
-      </div>
-    </div>
-
-    <!-- img class="center" src="<?php echo url('assets/images/foss_body.png') ?>" alt="<?php echo $site->title()->html() ?>" / -->
+<main class="main narrow" role="main">
 
     <hr>
 
-    <?php snippet('projects') ?>
+    <div class="cf">
+        <div class="title">
+            <?php echo $page->title()->kirbytext() ?>
+        </div>
 
-  </main>
+        <img class="puzzle" src="<?php echo url('assets/images/puzzle.png') ?>" alt="<?php echo $site->title()->html() ?>"/>
+    </div>
+
+
+    <div class="text">
+        <?php echo $page->main_text()->kirbytext() ?>
+    </div>
+
+    <hr>
+
+    <div class="text news">
+        <?php echo $page->news()->kirbytext() ?>
+    </div>
+
+</main>
 
 <?php snippet('footer') ?>
