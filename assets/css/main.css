@@ -66,7 +66,7 @@ body {
   line-height: 1.5em;
   padding: 0 1.5em;
   max-width: 50em;
-  background: #8a5a96;
+  background: #8b5a96;
   color: white;
   letter-spacing: 1.2px;
 }
@@ -242,6 +242,7 @@ h1 a, h2 a, h3 a, h4 a {
 
 strong {
   color: #c3c300;
+  font-weight: 400;
 }
 
 .news {
