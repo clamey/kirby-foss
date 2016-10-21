@@ -64,7 +64,7 @@ body {
   margin: 0 auto;
   font-size: 1.25em;
   line-height: 1.5em;
-  padding: 0 1.5em;
+  padding: 0 .5em;
   max-width: 50em;
   background: #8b5a96;
   color: white;
@@ -79,7 +79,6 @@ body {
 }
 .logo {
   display: block;
-  margin-bottom: .5em;
 }
 .logo img {
   width: 60px;
@@ -153,6 +152,7 @@ body {
   .menu {
     float: right;
     margin-right: -1em;
+    margin-top: 10px;
   }
   .menu > li {
     float: left;
